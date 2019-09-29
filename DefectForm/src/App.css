@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid rgb(29, 3, 146);
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(4, 4, 58);
+  color: white;
+  padding: 12px 20px; 
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 70px;
+  margin-left: 70px;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #cbd7f8;
+  margin-top: 20px;
+  padding: 20px;
+  
+}
+
+.container2 {
+	max-width: 1000px;
+	margin-right:auto;
+  margin-left:auto;
+  color: rgb(169, 204, 236);
+	 display:flex;
+	justify-content:center;
+	align-items:center;
+   min-height:40vh;  
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  align-items:center;
+}
+
+th{
+  color: white;
+}
